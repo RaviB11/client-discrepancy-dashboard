@@ -1,0 +1,15 @@
+# Python virtual environment folder
+# This is specific to your machine and can be very large.
+venv/
+
+# Python cache files
+# These are generated automatically by Python to speed things up.
+__pycache__/
+
+# Data files and reports
+# The code generates these, so we only need to share the code itself.
+*.csv
+
+# IDE-specific folders (optional but good practice)
+.vscode/
+.idea/
