@@ -1,17 +1,21 @@
 **Client Data Discrepancy Dashboard**
+
 This project demonstrates a proactive, client-focused approach to data validation during a critical implementation phase. It includes Python scripts to simulate a data migration and an automated discrepancy analysis, producing a clean, actionable report ready for visualization in a tool like Tableau.
 
 **Project Overview**
+
 During a data migration, ensuring data integrity is paramount for client trust and project success. This tool was designed to transparently identify, quantify, and report on data migration errors, transforming a potentially contentious process into a collaborative one.
 The final output is a discrepancy_report.csv file, which serves as a direct data source for a client-facing Tableau dashboard. This dashboard provides a clear, actionable view of data quality, reducing manual validation time by an estimated 80% and directly improving client satisfaction.
 
 **Key Features**
+
 ⦁	Automated Discrepancy Detection: A Python script uses advanced comparison logic (mimicking SQL's FULL OUTER JOIN) with the Pandas library to compare pre- and post-migration datasets.
 ⦁	Clear, Actionable Reporting: The script generates a detailed report that categorizes discrepancies (e.g., 'Value Mismatch', 'Record Missing in Target'), pinpointing the exact client ID and field at issue.
 ⦁	SQL-Powered Logic: While implemented in Python for this simulation, the core logic is based on advanced SQL queries that can be directly applied in a real database environment.
 ⦁	Dashboard-Ready Output: The final CSV report is structured perfectly for easy ingestion into business intelligence tools like Tableau or Power BI to create intuitive, client-facing dashboards.
 
 **How to Run the Project**
+
 **Prerequisites**
 ⦁	Python 3.8+
 ⦁	pip (Python package installer)
