@@ -47,7 +47,7 @@ python create_discrepancy_report.py
 ### 4. View the Output
 A new file, discrepancy_report.csv, will be created in your project folder. This is the core output of the analysis. You can open it in any spreadsheet program to see the detailed list of data quality issues.
 
-### 5. Visualize in Tableau (Conceptual)
+### 5. Visualize in Tableau
 1.	Open Tableau Desktop.
 2.	Connect to a new data source and select "Text File".
 3.	Choose the discrepancy_report.csv file.
@@ -88,7 +88,7 @@ FROM source_table s
 LEFT JOIN target_table t ON s.client_id = t.client_id  
 WHERE t.client_id IS NULL;
 
-### Query 3: Find Records Only in Target (New)
+### Query 3: Find Records Only in Target
 -- Uses a RIGHT JOIN to find records that exist in the target but not the source  
 SELECT  
 t.client_id,  
